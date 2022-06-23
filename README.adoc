@@ -2,7 +2,8 @@
 
 = Ball Fighter
 
-自作の3Dアクションゲーム
+自作の3Dアクションゲーム。 +
+link:https://gsuke.github.io/ball-fighter/[ゲームプレイはこちらから！] (音が出ます)
 
 image::./readme/demo.gif[width="480"]
 
