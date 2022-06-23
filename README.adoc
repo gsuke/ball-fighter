@@ -1,0 +1,68 @@
+:experimental:
+
+= Ball Fighter
+
+自作の3Dアクションゲーム
+
+image::./readme/demo.gif[width="480"]
+
+高校3年生の頃に開発しました。
+
+== 機能
+
+* ゲームモード
+* マップエディタ
+* (リアルタイム通信プレイ) ※諸事情により無効化
+
+== 遊び方
+
+PCのキーボード操作のみ対応。
+
+* 移動
+** kbd:[↑]: 前進
+** kbd:[←] kbd:[→]: 方向転換
+** kbd:[↓]: 後退
+
+* アクション
+** kbd:[Z]: 攻撃
+** kbd:[X]: 回避(一定時間無敵になる)
+
+* 武器の切り替え
+** kbd:[A]: ソード(無難な近接武器, デフォルト)
+** kbd:[S]: ダガー(手数が多い近接武器)
+** kbd:[D]: アロー(遠距離武器)
+
+== お借りした素材
+
+=== BGM
+
+* link:https://wingless-seraph.net/[ユーフルカ] 様
+** Never Surrender
+
+=== 効果音
+
+* link:https://maou.audio/[魔王魂] 様
+** 戦闘03(Attack.wav: ソード, ダガー攻撃)
+** システム12(FoundTarget.wav: 敵がプレイヤーを検出)
+** 銃05(Shot.wav: アロー攻撃)
+
+* link:https://taira-komori.jpn.org/[小森平] 様
+** 魔法７(ChangeWeapon.mp3: 武器切り替え)
+
+* link:https://wingless-seraph.net/[ユーフルカ] 様
+** 攻撃回避1(Avoid.wav: 回避ダッシュ)
+** ダメージ1(Damage.wav: 敵ダメージ)
+** 敵消滅(Defeat.wav: 敵が倒れる)
+** チュドーン(Explosion.wav: プレイヤーが被弾)
+
+=== 画像
+
+* A3D 様
+** link:https://assetstore.unity.com/packages/2d/textures-materials/floors/tileable-hand-painted-ground-texture-pack-2-62018#description[Tileable Hand Painted Ground Texture Pack 2]
+
+* link:https://www.irasutoya.com/[いらすとや] 様
+** ビックリマーク・エクスクラメーションマーク
+
+== 開発環境
+
+Unity 5.3.4f1
